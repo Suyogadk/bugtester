@@ -46,7 +46,10 @@
 	transform:scale(1) rotate(0deg);
 	transition:all .5s linear;
 }
-
+.det:hover img
+{
+	transform:scale(1.1) rotate(-5deg);
+}
 
 
 .det.right
