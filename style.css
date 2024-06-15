@@ -12,7 +12,8 @@
 }
 .all p
 {
-	margin-bottom:15px;
+	margin-top: 45px;
+	margin-bottom:30px;
 }
 
 
@@ -40,11 +41,12 @@
 }
 .det img
 {
+	margin-top: 30px;
 	width:100%;
 	height:auto;
 	border-radius:8px;
-	
-	
+	transform:scale(1) rotate(0deg);
+	transition:all .5s linear;
 }
 
 
