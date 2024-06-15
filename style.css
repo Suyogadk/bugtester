@@ -3,6 +3,12 @@
 	padding:0;
 	margin:0;
 }
+h2{
+	color:  #040e2c;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+}
 .all
 {
 	padding:30px;
@@ -12,7 +18,9 @@
 }
 .all p
 {
-	margin-top: 45px;
+	font-size: 17px;
+	color:  #040e2c;
+	margin-top: 65px;
 	margin-bottom:30px;
 }
 
@@ -27,26 +35,14 @@
 	border-radius:8px;
 	margin-bottom:10px;
 }
-.det:before
-{
-	
-	position:absolute;
 
-	width:100%;
-	height:100%;
-	border:8px solid #fff;
-	z-index:2;
-	overflow:hidden;
-	box-sizing:border-box;
-}
 .det img
 {
 	margin-top: 30px;
 	width:100%;
-	height:auto;
-	border-radius:8px;
-	transform:scale(1) rotate(0deg);
-	transition:all .5s linear;
+	height: auto;
+	border-radius:10px;
+	border: 5px solid black;
 }
 
 
